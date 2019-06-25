@@ -1,0 +1,23 @@
+.site-header {
+
+}
+
+.site-branding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-header .site-title {
+    font-size: 2em;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #AAA;
+    text-shadow: 0.15rem 0.15rem 0.1rem #999;;
+}
+
+.site-description {
+    font-style: italic;
+    font-family: serif;
+}
+

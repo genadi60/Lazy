@@ -1,0 +1,34 @@
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: block;
+    list-style: none outside;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    background: #FFF;
+    box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #444;
+}
+
+.navigation li i {
+    margin-right: 0.5em;
+}
