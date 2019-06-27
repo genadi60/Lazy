@@ -8,14 +8,15 @@
     </head>
     <body>
         <div class="site">
+            <label id="toggle-main-left" for="nav-toggle" class="fas toggle-main"><span>Menu</span></label>
+            <label id="toggle-main-right" for="nav-toggle" class="fas toggle-main"><span>Menu</span></label>
             <input type="checkbox" class="nav-toggle" id="nav-toggle" name="nav-toggle">
             <header class="site-header">
                 <div class="site-branding">
                     <p class="site-title">{{ site.title }}</p>
                     <p class="site-description">{{ site.description }}</p>
                 </div>
-                <label id="toggle-main" for="nav-toggle" class="fas"><span>Menu</span></label>
-                <nav class="navigation main">
+                <nav class="navigation-main">
                     <ul>
                         <li><a href="/"><i class="far fa-newspaper"></i>Blog</a></li>
                         <li><a href="/about/"><i class="fas fa-user-secret"></i>About</a></li>
