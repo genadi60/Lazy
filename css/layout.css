@@ -4,5 +4,7 @@
 }
 
 .site-content {
+    max-width: 60rem;
     padding-top: 8rem;
+    margin: 0 auto;
 }

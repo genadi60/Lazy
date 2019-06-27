@@ -1,5 +1,5 @@
 .navigation-main {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -31,7 +31,7 @@
 }
 
 #nav-toggle {
-    /*display: none;*/
+    display: none;
     pointer-events: none;
 }
 
@@ -61,13 +61,14 @@
     display: none;
 }
 
-#nav-toggle:checked + .site-header .navigation-main {
+#nav-toggle:checked + .site  .site-header  .navigation-main {
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(255, 255, 255, 0.8);
+
 }
 
-#nav-toggle:checked + .site-header .toggle-main:before {
+#nav-toggle:checked + .site .toggle-main:before {
     content: '\f00d';
 }
