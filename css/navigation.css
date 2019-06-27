@@ -31,7 +31,7 @@
 }
 
 #nav-toggle {
-    /*display: none;*/
+    display: none;
     pointer-events: none;
 }
 
