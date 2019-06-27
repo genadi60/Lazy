@@ -68,6 +68,6 @@
     background: rgba(255, 255, 255, 0.8);
 }
 
-#nav-toggle:checked + .site-header .toggle-main:before {
+#nav-toggle:checked + .site .toggle-main:before {
     content: '\f00d';
 }
