@@ -1,14 +1,18 @@
 ---
 layout: site
+title: Home
 ---
 
-<h2><i class="fas fa-envelope-open-text"></i> index.html</h2>
+<h2><i class="fas fa-envelope-open-text"></i> Blog</h2>
 
-<ul>
+<ul class="listing posts">
     {% for post in site.posts %}
     <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        {{ post.excerpt}}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+            <span class="title">{{ post.title }}</span>
+            <span class="date">{{post.date | date_to_string}}</span>
+        </a>
+        <!--{{ post.excerpt}}-->
         <!--{{ post.content }}-->
     </li>
     {% endfor %}

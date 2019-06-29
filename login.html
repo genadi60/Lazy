@@ -1,0 +1,20 @@
+---
+layout: site
+title: Login
+permalink: /login/
+---
+
+<form action="{{ site.baseurl}}/" method="post">
+    <fieldset>
+        <legend>Login</legend>
+        <p class="field">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+        </p>
+        <p class="field">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </p>
+        <input type="submit" class="btn" value="Sign in">
+    </fieldset>
+</form>

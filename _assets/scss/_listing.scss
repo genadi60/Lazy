@@ -1,0 +1,40 @@
+.listing {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.listing li {
+  display: block;
+  list-style: none outside;
+  flex: 0 0 31%;
+}
+
+.listing a {
+  display: block;
+  background: #FFF;
+  border: 1px solid rgb(255, 200, 5);
+  border-radius: 0.3rem;
+  color: #333;
+  text-decoration: none;
+  box-shadow: 0.3rem 0.3rem 0.5rem 0 rgba(0, 0, 0, 0.3);
+  padding: 1rem 1.5rem;
+  transition: background-color 0.3s ease-in, transform 0.3s ease-in;
+}
+
+.listing a:hover {
+  background: rgba(255, 200, 5, 0.2);
+  transform: scale(1.1);
+}
+
+.listing a span {
+  display: block;
+}
+
+.listing a .title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}

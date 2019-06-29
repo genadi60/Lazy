@@ -6,7 +6,7 @@
         <script src="https://kit.fontawesome.com/413e6250f4.js"></script>
         <link rel="stylesheet" href="/Lazy/css/site.css" type="text/css">
     </head>
-    <body class="">
+    <body class="login">
     <input type="checkbox" class="nav-toggle" id="nav-toggle" name="nav-toggle">
     <div class="site">
             <label id="toggle-main-left" for="nav-toggle" class="fas toggle-main"><span>Menu</span></label>
@@ -26,27 +26,20 @@
                 </nav>
             </header>
             <main class="site-content">
-                <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
-
+                <form action="/Lazy/" method="post">
+    <fieldset>
+        <legend>Login</legend>
+        <p class="field">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+        </p>
+        <p class="field">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </p>
+        <input type="submit" class="btn" value="Sign in">
+    </fieldset>
+</form>
             </main>
             <footer class="site-footer">
 

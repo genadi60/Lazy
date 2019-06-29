@@ -8,3 +8,28 @@
     padding-top: 8rem;
     margin: 0 auto;
 }
+
+body.login {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+body.login .site {
+    flex: 1 0 auto;
+    padding: 0;
+    background: rgba(#FC5, 0.2);
+    border: 4rem solid #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body.login .toggle-main,
+body.login .site-header {
+    display: none;
+}
+
+body.login .site-content {
+    padding-top: 0;
+}
